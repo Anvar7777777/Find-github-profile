@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2a2a72;
+    font-family: sans-serif;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #2e2a68 74%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+input {
+    background-color: #4c11ac;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+input::placeholder{
+    color: #bbb;
+}
+input:focus{
+    outline: none;
+}
+.card{
+    background-color: #3b2066;
+    font-family: sans-serif;
+    background-image: linear-gradient(315deg, #3b2066 0%, #4c11ac 74%);
+    display: flex;
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+.avatar {
+    border: 10px solid #2a2a72;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.user-info{
+    color: white;
+    margin-left: 2rem;
+}
+.user-info h2{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.user-info ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    max-width: 400px;
+    margin-top: 20px;
+}
+.repo{
+    background-color: #2a2a72;
+    display: inline-block;
+    color: white;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    font-size: 0.7rem;
+    border-radius: 5px;
+}
+.repos-title{
+    margin: 15px 0;
+}
